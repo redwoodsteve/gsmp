@@ -1,0 +1,7 @@
+name: gsmp
+version: '0.1'
+main: com.redwoodsteve.gsmp.Gsmp
+api-version: '1.21'
+authors: [redwoodsteve]
+description: goober smp plugin
+website: mcs.redwoodsteve.com
