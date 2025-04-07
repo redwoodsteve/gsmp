@@ -6,12 +6,11 @@ public final class Gsmp extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getLogger().info("HELLO GOOBERS!");
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getLogger().info("bye bye goobers");
     }
 }
