@@ -13,6 +13,7 @@ public final class Gsmp extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("HELLO GOOBERS!");
+        getServer().getPluginManager().registerEvents(new EventHandlers(), this);
         if (Bukkit.getWorld("space") == null) {
             GenerateWorld.generate();
         }
@@ -26,6 +27,7 @@ public final class Gsmp extends JavaPlugin {
     @Override
     public boolean onCommand (@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (command.getName().equals("space")) {
+            Bukkit.getPlayer(sender.getName()).sendMessage("hi");
             Bukkit.getPlayer(sender.getName()).teleport(Bukkit.getWorld("space").getSpawnLocation());
             return true;
         }
