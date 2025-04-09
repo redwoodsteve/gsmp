@@ -5,3 +5,8 @@ api-version: '1.21'
 authors: [redwoodsteve]
 description: goober smp plugin
 website: mcs.redwoodsteve.com
+
+commands:
+  space:
+    description: sends you to outer space!
+    usage: /<command>

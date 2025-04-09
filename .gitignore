@@ -1,3 +1,16 @@
-# Project exclude paths
-/.gradle/
+/out/
+/build/
+/bin/
+
 .idea/
+*.iml
+
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle-wrapper.properties
+
+*.log
+*.tmp
+
+run/
